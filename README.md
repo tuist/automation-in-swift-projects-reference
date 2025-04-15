@@ -1,6 +1,6 @@
-# Automation in your Swift projects (reference)
+# Automate your Swift projects (reference)
 
-This repository is a companion repository for [this blog post](http://localhost:8080/blog/2025/04/15/automation-in-swift-projects) including examples of how to automate your Swift projects.
+This repository is a companion repository for [this blog post](https://tuist.dev/blog/2025/04/15/automation-in-swift-projects) including examples of how to automate your Swift projects.
 
 It contains a Xcode project and various automation approaches, all of them building the project.
 
