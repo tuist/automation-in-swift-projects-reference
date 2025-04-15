@@ -2,3 +2,6 @@
 ruby = "{{ get_env(name='RUBY_VERSION', default='3.4.3') }}"
 "gem:fastlane" =  "2.227.1"
 "ubi:kattouf/Sake[exe=sake]" = "0.3.3"
+"spm:mxcl/swift-sh" = "2.5.0"
+"usage" = "2.0.7"
+"deno" = "2.2.10"

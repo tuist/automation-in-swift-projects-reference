@@ -12,3 +12,7 @@ It contains a Xcode project and various automation approaches, all of them build
 You can then try the different automation approaches to build the project:
 
 - `fastlane build`: Runs the `build` lane in [`./fastlane/Fastfile`](./fastlane/Fastfile), which internally uses [Fastlane's gym](https://docs.fastlane.tools/actions/gym/)
+- `sake run build`: Runs the `build` workflow in [`./SakeApp/Sakefile.swift`](./SakeApp/Sakefile.swift).
+- `build.swift`: Runs the [`build.swift`](./build.swift) Swift script.
+- `build.sh`: Runs the [`build.bash`](./build.bash) Swift script.
+- `build.js`: Runs the [`build.js`](./build.js) JS script in Deno.
