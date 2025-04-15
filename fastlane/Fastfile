@@ -1,2 +1,8 @@
 lane :build do
+  gym(
+    project: "Automation/Automation.xcodeproj",
+    skip_package_ipa: true,
+    skip_archive: true,
+    skip_codesigning: true
+  )
 end

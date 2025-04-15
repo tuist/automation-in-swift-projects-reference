@@ -8,3 +8,7 @@ It contains a Xcode project and various automation approaches, all of them build
 
 1. Clone the repository: `git clone git@github.com:tuist/automation-in-swift-projects-reference.git`.
 2. Install dependencies: `mise install`.
+
+You can then try the different automation approaches to build the project:
+
+- `fastlane build`: Runs the `build` lane in [`./fastlane/Fastfile`](./fastlane/Fastfile), which internally uses [Fastlane's gym](https://docs.fastlane.tools/actions/gym/)
